@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+}
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.userImg{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1 solid white;
+}
+.photo{
+width: 320px;
+height: 240px;
+margin-bottom: 20px;
+overflow: clip;
+}
+.photosCenter{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.photoInfo{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  background-color: rgba(0, 0, 0, 0.699);
+  color: white;
+  height: 70px;
+  align-items: center;
+  position: relative;
+  top: 0;
+  transition: 0.5s;
+}
+.photo:hover> .photoInfo{
+  
+  top: -73.5px; 
+}
+
+/* Search */
+
+.search{
+  padding:60px 0 ;
+
+}
+.searchForm > input, .searchForm> button{
+  border: none;
+  border-bottom: 2px solid cornflowerblue;
+  font-size: 20px;
+  padding: 4px 10px;
+  background-color: transparent;
+  cursor: pointer;
+  color: cornflowerblue;
+}
